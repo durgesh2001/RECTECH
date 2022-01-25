@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <!-- <title>RECTECH_HOME</title> -->
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+<!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files-->
+
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/animate.min.css'%}">
+  <link rel="stylesheet" href="{% static 'css/aos.css'%}">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}">
+  <link rel="stylesheet" href="{% static 'css/bootstrap-icons.css'%}">
+  <link rel="stylesheet" href="{% static 'css/boxicons.min.css'%}">
+  <link rel="stylesheet" href="{% static 'css/remixicon.min.css '%}">
+  <link rel="stylesheet" href="{% static 'css/swiper-bundle.min.css'%}">
+  
+{% load static %}
+  <link rel="stylesheet" href="{% static 'css/style.css '%}">
+
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/style1.css '%}">
+  
+
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	
+  
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo me-auto"><a href="index.html">RECTECH</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+       <a href="index.html" class="logo me-auto">{% load static %}
+        <img src="{% static 'images/logo.jpeg'%}" class="img-fluid" alt="Logo">
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link " href="{% url 'home' %}">Home</a></li>
+          <li><a class="nav-link " href="{% url 'about' %}">About</a></li>
+          <li><a class="nav-link " href="{% url 'ourteam' %}">Ourteam</a></li>
+          <li><a class="nav-link " href="{% url 'register' %}">Register</a></li>
+          <!-- <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          
+          <li><a href="trainers.html">Our Team</a></li>
+          <li><a href="#">Rgistration form</a></li> -->
+          
+
+          <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a class="nav-link " href="{% url 'firstyear' %}">B.Tech Firstyear</a></li>
+              <!-- <li><a href="courses.html" target="blank">B.TECH FIRST YEAR</a></li> -->
+              <li class="dropdown"><a href="#"><span>B.Tech Second Year</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a class="nav-link " href="{% url 'IT2' %}">Innformationn Technology</a></li>
+                  <li><a class="nav-link " href="{% url 'civil2' %}">Civil Engineering</a></li>
+                  <li><a class="nav-link " href="{% url 'electrical2' %}">Electrical Engineering</a></li>
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>B.TECH THIRD YEAR</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a class="nav-link " href="{% url 'IT3' %}">Information Technology</a></li>
+
+                  <li><a class="nav-link " href="{% url 'civil3' %}">Civil Engineering</a></li>
+
+                  <li><a class="nav-link " href="{% url 'electrical3' %}">Electrical Engineering</a></li>
+                  
+                </ul>
+              </li>
+              <li class="dropdown"><a href="#"><span>B.TECH FINAL YEAR</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a class="nav-link " href="{% url 'IT4' %}">Information Technology</a></li>
+
+                  <li><a class="nav-link " href="{% url 'civil4' %}">Civil Engineering</a></li>
+
+                  <li><a class="nav-link " href="{% url 'electrical4' %}">Electrical Engineering</a></li>
+                  
+                </ul>
+              </li>
+              
+             </ul>
+          </li>
+          <li><a class="nav-link " href="{% url 'contact' %}">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#" class="get-started-btn">your Profile</a>
+
+    </div>
+  </header><!-- End Header -->

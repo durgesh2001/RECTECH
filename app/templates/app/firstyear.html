@@ -1,0 +1,198 @@
+{% include "app/header.html" %}
+<title>B.tech Firstyear</title>
+
+  <main id="main" data-aos="fade-in">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <h2>B.TECH FIRST YEAR</h2>
+      
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Courses Section ======= -->
+    <section id="courses" class="courses">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              {% load static %}
+                <img src="{% static 'images/chem.jpeg'%}" class="img-fluid" alt="CHEMISTRY">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>ENGINEERING CHEMISTRY</h4>
+                 
+                </div>
+
+                <h3><a href="{% url 'chemistry' %}">ENGINEERING CHEMISTRY</a></h3>
+                
+                
+              </div>
+            </div>
+          </div>
+           <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="{% static 'images/physics.jpeg'%}" class="img-fluid" alt="Physics">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>ENGINEERING PHYSICS</h4>
+                  
+                </div>
+
+                <h3><a href="{% url 'Physics' %}">ENGINEERING PHYSICS</a></h3>
+               
+              </div>
+            </div>
+          </div> 
+          <!-- End Course Item-->
+           
+
+           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="{% static 'images/math1.jpeg'%}" class="img-fluid" alt="MATHEMATICS1">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>ENGINEERING MATHEMATICS</h4>
+                  
+                </div>
+
+                <h3><a href="{% url 'maths1' %}">ENGINEERING MATHEMATICS</a></h3>
+               
+              </div>
+            </div>
+          </div> 
+          <!-- End Course Item-->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/math2.jpeg'%}" class="img-fluid" alt="Mathematics 2">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>ENGINEERING MATHEMATICS 2</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'maths2' %}">ENGINEERING MATHEMATICS 2</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/electo.jpeg'%}" class="img-fluid" alt="Electronics">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>EMERGING DOMAIN IN ELECTRTONICS ENGINEERING</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'electronics' %}">EMERGING DOMAIN IN ELECTRONICS</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/elect.jpeg'%}" class="img-fluid" alt="Electrical">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>BASIC ELECTRICAL ENGINEERING</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'basic_electrical' %}">BASIC ELECTRICAL ENGINEERING</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/mechn.jpeg'%}" class="img-fluid" alt="Mechanical">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>FUNDAMENTAL OF MECHANICAL ENGINEERING AND MECHATROINICS</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'mechanical' %}">FUNDAMENTAL OF MECHANICAL ENGINEERING AND MECHATRONICS</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/ai.jpg'%}" class="img-fluid" alt="AI">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>AI FOR ENGINEERING</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'AI' %}">AI FOR ENGINEERING</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/et.jpeg'%}" class="img-fluid" alt="Emerging Technology">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>EMERGING TECHNOLOGY FOR ENGINEERING</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'ET' %}">EMERGING TECHNOLOGY FOR ENGINEERING</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/programming.jpeg'%}" class="img-fluid" alt="PPS">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>PROGRAMMING FOR PROBLEM SOLVING</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'pps' %}">PROGRAMMING FOR PROBLEM SOLVING</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="{% static 'images/soft skill.jpeg'%}" class="img-fluid" alt="Soft Skill">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>SOFT SKILL</h4>
+                 
+                </div>
+
+                <h3><a href="{% url 'softskill' %}">SOFT SKILL</a></h3>
+                
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+        </div>
+
+      </div>
+    </section><!-- End Courses Section -->
+
+  </main><!-- End #main -->
+
+  {% include "app/footer.html" %}

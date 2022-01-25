@@ -1,0 +1,199 @@
+{% include "app/header.html" %}
+<title>IT 2nd Year</title>
+
+  <main id="main" data-aos="fade-in">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <h2>INFORMATION TECHNOLOGY 2<sup>nd</sup> YEAR</h2>
+      
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Courses Section ======= -->
+    <section id="courses" class="courses">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              {% load static %}
+              <img src="{% static 'images/2ds.jpeg'%}" class="img-fluid" alt="Data Structure and algorithm">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Data Structure and algorithm</h4>
+                 
+                </div>
+
+                <h3><a href="{% url 'ds' %}">Data Structure and algorithm</a></h3>
+                
+                
+              </div>
+            </div>
+          </div>
+           <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="{% static 'images/2c.jpeg'%}" class="img-fluid" alt="Computer Organization & Architecture">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>Computer Organization & Architecture</h4>
+                  
+                </div>
+
+                <h3><a href="{% url 'coa' %}">Computer Organization & Architecture</a></h3>
+               
+              </div>
+            </div>
+          </div> 
+          <!-- End Course Item-->
+           
+
+           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+            <div class="course-item">
+              <img src="{% static 'images/2m.jpeg'%}" class="img-fluid" alt="Engineering Mathematics 4">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>ENGINEERING MATHEMATICS 4</h4>
+                  
+                </div>
+
+                <h3><a href="{% url 'maths4' %}">ENGINEERING MATHEMATICS 4</a></h3>
+               
+              </div>
+            </div>
+          </div> 
+          <!-- End Course Item-->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/2dm.jpeg'%}" class="img-fluid" alt="Discrete Mathematics & Theory of logic">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Discrete Mathematics & Theory of logic</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'discrete' %}">Discrete Mathematics & Theory of logic</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/2pp.jpeg'%}" class="img-fluid" alt="Python Programming">
+                
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Python Programming</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'python' %}">Python Programming</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/2uh.jpeg'%}" class="img-fluid" alt="Uiversal Human Values">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Universal Human Values </h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'uhv' %}">Universal Human Values</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/2at.jpeg'%}" class="img-fluid" alt="Theory of automata">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Theory of Automata</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'toa' %}">Theory of Automata</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/2os.jpeg'%}" class="img-fluid" alt="Operatig System">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Operating System</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'os' %}">Operating System</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/2mp.jpeg'%}" class="img-fluid" alt="Microprocessor">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Microprocessor</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'mp' %}">Microprocessor</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+            <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+              <div class="course-item">
+                <img src="{% static 'images/2es.jpeg'%}" class="img-fluid" alt="Enginneering Science Course">
+                <div class="course-content">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4>Engineering Science Course</h4>
+                    
+                  </div>
+  
+                  <h3><a href="{% url 'esc' %}">Engineering Science Course</a></h3>
+                 
+                </div>
+              </div>
+            </div> 
+            <!-- End Course Item-->
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="course-item">
+              <img src="{% static 'images/2cs.jpeg'%}" class="img-fluid" alt="CSS">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>CSS</h4>
+                 
+                </div>
+
+                <h3><a href="{% url 'css' %}">CSS</a></h3>
+                
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+
+        </div>
+
+      </div>
+    </section><!-- End Courses Section -->
+
+  </main><!-- End #main -->
+
+  {% include "app/footer.html" %}
